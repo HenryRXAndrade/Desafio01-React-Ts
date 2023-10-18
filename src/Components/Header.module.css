@@ -15,7 +15,7 @@ header {
   align-items: center;
 }
 
-i {
+header div i {
   color: var(--blue);
   margin-right: 0.75rem;
 }

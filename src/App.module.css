@@ -2,6 +2,65 @@
   width: 100%;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+}
+
 .input {
   position: relative;
+}
+
+.wrapperLista {
+  margin-top: 4rem;
+  display: grid;
+  width: 52.125rem;
+  /* height: 17.938rem; */
+}
+
+.cabecalholista {
+  display: grid;
+  height: 1.188rem;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+}
+
+.tarefas {
+  display: flex;
+  color: var(--blue);
+}
+
+.contadortarefas {
+  margin-left: 0.5rem;
+  min-width: 1.5rem;
+  border-radius: 0.5rem;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  text-align: center;
+  padding-left: 0.313rem;
+  padding-right: 0.313rem;
+}
+
+.concluidas {
+  display: flex;
+  color: var(--purple);
+}
+
+.contadorconcluidas {
+  margin-left: 0.5rem;
+  min-width: 1.5rem;
+  border-radius: 0.5rem;
+  background: var(--gray-400);
+  color: var(--gray-200);
+  text-align: center;
+  padding-left: 0.313rem;
+  padding-right: 0.313rem;
+}
+
+.lista {
+  margin-top: 1.5rem;
+  border-top: solid;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  border-color: var(--gray-400);
 }

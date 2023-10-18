@@ -4,6 +4,7 @@ import { InputText } from "primereact/inputtext";
 
 export function TaskInput() {
     const [value, setValue] = useState<string>('');
+    const [created, setCreated] = useState<number>(0);
 
     return (
         <div className={styles.inputWrapper}>
